@@ -1,0 +1,20 @@
+[database]
+    host="localhost"
+    user="root"
+    password="root"
+    port=3306
+    db="test"
+[cache]
+    host="localhost"
+    user=""
+    password=""
+    port=6379
+    db=2
+[server]
+    port=8088
+    host=""
+[nsq]
+    use = false
+    topic=""
+    lookup=""
+    channel=""
